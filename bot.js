@@ -20,7 +20,11 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-
+client.on('ready', () => {
+  console.log('---------------');
+  console.log('Dragon Bot')
+  console.log('---------------')
+});
 
 
 
