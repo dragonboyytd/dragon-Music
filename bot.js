@@ -1,14 +1,5 @@
 const Discord = require('discord.js');
-
 const Util = require('discord.js');
-
-
-
-
-
-
-
-
 const db = require('quick.db');
 const giphy = require('giphy-api')();    
 const googl = require('goo.gl');  
